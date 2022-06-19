@@ -1,0 +1,17 @@
+.bag-greyputih {
+  background: rgb(255, 255, 255);
+}
+
+.Montserrat-Bold {
+  font-weight: bold;
+}
+
+.text-biru {
+  color: #1d5db7;
+}
+
+@media screen and (max-width: 680px) {
+  .link-footer {
+    display: none;
+  }
+}
