@@ -1,0 +1,49 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: rgb(235, 235, 235);
+}
+
+.navibar-right {
+  position: absolute;
+  right: 0px;
+  font-size: 18px;
+}
+
+.navibar {
+  position: relative;
+}
+
+.btn-offcanvas-hidden {
+  display: none;
+}
+
+.offcanvas-navi {
+  list-style-type: none;
+}
+
+.offcanvas-navi .navi-active {
+  color: rgb(0, 0, 0);
+}
+
+.navi-link {
+  color: rgb(104, 104, 104);
+  text-decoration: none;
+}
+
+.navibar {
+  background-image: url(../img/yss\ white\ pattern.png);
+}
+
+.navi-link:hover {
+  color: rgb(199, 199, 199);
+}
+
+@media screen and (max-width: 680px) {
+  .btn-offcanvas-hidden {
+    display: flex;
+  }
+  .navi-brand {
+    height: 70px;
+    margin-left: 50px;
+  }
+}
